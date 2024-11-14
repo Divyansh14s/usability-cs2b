@@ -198,19 +198,23 @@ header {
   box-shadow: 0 0 10px #888;
 }
 .example-card:nth-child(1) {
-  background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url();
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url(asset\ 36.jpeg);
   background-size: cover;
 }
 .example-card:nth-child(2) {
-  background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url();
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url(asset\ 37.jpeg);
   background-size: cover;
 }
 .example-card:nth-child(3) {
-  background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url();
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url(asset\ 38.jpeg);
   background-size: cover;
 }
 .example-card:nth-child(4) {
-  background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url();
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    urlasset\ 39.jpeg);
   background-size: cover;
 }
 .cta-section {
@@ -220,9 +224,10 @@ header {
 .cta-container {
   flex-direction: column;
   align-items: center;
-  color: white;gap: 30px;
+  color: white;
+  gap: 30px;
 }
-.cta-container {
+.cta-container p {
   color: white;
   margin-top: 30px;
 }
